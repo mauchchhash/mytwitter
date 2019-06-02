@@ -9,10 +9,10 @@
           <h2>{{ $user->name }}</h2>
         </div>
 
-        <!-- Top Riht Button -->
+        <!-- Top Right Button -->
         <div class="right-top-bnr">
           <div class="connect"> <a href="#." data-toggle="modal" data-target="#myModal"><i class="fa fa-user-plus"></i> Connect</a> <a href="#."><i class="fa fa-share-alt"></i> Share</a>
-            <div class="bt-ns"> <a href="#."><i class="fa fa-bookmark-o"></i> </a> <a href="#."><i class="fa fa-envelope-o"></i> </a> <a href="#."><i class="fa fa-exclamation"></i> </a> </div>
+            <div class="bt-ns"> <a href="#."><i class="fa fa-bookmark-o"></i></a> <a href="#."><i class="fa fa-envelope-o"></i></a>  </div>
           </div>
         </div>
       </div>
@@ -62,11 +62,7 @@
           <div class="col-md-12">
             <ul class="nav nav-tabs">
               <li class="active"><a data-toggle="tab" href="#profile">Profile</a></li>
-              <li><a data-toggle="tab" href="#jobs">Jobs</a></li>
-              <li><a data-toggle="tab" href="#contact">Contact</a></li>
-              <li><a data-toggle="tab" href="#portfolio">Portfolio</a></li>
-              <li><a data-toggle="tab" href="#blog-tab">Blog Posts</a></li>
-              <li><a data-toggle="tab" href="#Con-tab">Connections</a></li>
+              <li><a data-toggle="tab" href="#tweet-tab">Tweets</a></li>
               <li><a data-toggle="tab" href="#flowrs-tabs">Followers (241)</a></li>
               <li><a data-toggle="tab" href="#foll-tabs">Following</a></li>
             </ul>
@@ -102,7 +98,7 @@
                   <div class="col-md-8"> 
 
 
-                    <!-- Professional Details -->
+                    <!-- People you may want to follow -->
                     <div class="sidebar">
                       <h5 class="main-title">People You May Want to Follow</h5>
 
@@ -164,9 +160,9 @@
                   <!-- Col -->
                   <div class="col-md-4"> 
 
-                    <!-- Professional Details -->
+                    <!-- Overview -->
                     <div class="sidebar">
-                      <h5 class="main-title">Professional Details</h5>
+                      <h5 class="main-title">Overview</h5>
                       <div class="sidebar-information">
                         <ul class="single-category">
                           <li class="row">
@@ -175,9 +171,6 @@
                           <li class="row">
                             <h6 class="title col-xs-6">Location</h6>
                             <span class="subtitle col-xs-6">Jordan Amman</span></li>
-                          <li class="row">
-                            <h6 class="title col-xs-6">Career Lavel</h6>
-                            <span class="subtitle col-xs-6">Mid-Level</span></li>
                           <li class="row">
                             <h6 class="title col-xs-6">E-mail</h6>
                             <span class="subtitle col-xs-6">{{$user->email}}</span></li>
@@ -188,172 +181,65 @@
                       </div>
                     </div>
 
-
-                  </div>
-                </div>
-              </div>
-
-              <!-- Jobs -->
-              <div id="jobs" class="tab-pane fade">
-                <div class="header-listing">
-                  <h6>Sort by</h6>
-                  <div class="custom-select-box">
-                    <select name="order" class="custom-select">
-                      <option value="0">Most popular</option>
-                      <option value="1">The latest</option>
-                      <option value="2">The best rating</option>
-                    </select>
-                  </div>
-                  <ul class="listing-views">
-                    <li class="active"><a href="#"><i class="fa fa-list"></i></a></li>
-                    <li><a href="#"><i class="fa fa-th"></i></a></li>
-                    <li><a href="#"><i class="fa fa-th-large"></i></a></li>
-                  </ul>
-                </div>
-                <div class="listing listing-1">
-                  <div class="listing-section">
-                    <div class="listing-ver-3">
-                      <div class="listing-heading">
-                        <h5>Front-End Web Developer</h5>
-                        <ul class="bookmark list-inline">
-                          <li><a href="#"><i class="fa fa-bookmark"></i></a></li>
-                          <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                          <li><a href="#"><i class="fa fa-share"></i></a></li>
-                        </ul>
-                      </div>
-                      <div class="listing-inner">
-                        <div class="listing-content">
-                          <h6 class="title-company">Mars Planet Telecommunications Inc.</h6>
-                          <span class="location"> <i class="fa fa-map-marker"></i> Manhattan, New york, USA </span> <span class="type-work full-time"> Full Time </span>
-                          <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio pellentesque habitant morbi tristique senectus et netus et malesuada. <a href="single_job.html">read more</a></p>
-                          <h6 class="title-tags">Skills required:</h6>
-                          <ul class="tags list-inline">
-                            <li><a href="#">Javascript</a></li>
-                            <li><a href="#">Wordpress</a></li>
-                            <li><a href="#">Presta</a></li>
-                            <li><a href="#">Sass</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="listing-tabs">
-                        <ul>
-                          <li><a href="#"><i class="fa fa-envelope"></i> email@mail.com</a></li>
-                          <li><a href="#"><i class="fa fa-phone"></i> 012 345 678</a></li>
-                          <li><a href="#"><i class="fa fa-globe"></i> www.webstite.com</a></li>
-                          <li class="share-button"> <a href="#"><i class="fa fa-share"></i> Share</a>
-                            <div class="contact-share">
-                              <ul>
-                                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                              </ul>
-                            </div>
-                          </li>
+                    <!-- Professional Details -->
+                    <div class="sidebar">
+                      <h5 class="main-title">Professional Details</h5>
+                      <div class="sidebar-information">
+                        <ul class="single-category">
+                          <li class="row">
+                            <h6 class="title col-xs-6">Working At</h6>
+                            <span class="subtitle col-xs-6">Company name</span></li>
+                          <li class="row">
+                            <h6 class="title col-xs-6">Post</h6>
+                            <span class="subtitle col-xs-6">Front End Developer</span></li>
                         </ul>
                       </div>
                     </div>
-                    <div class="listing-ver-3">
-                      <div class="listing-heading">
-                        <h5>Front-End Web Developer</h5>
-                        <ul class="bookmark list-inline">
-                          <li><a href="#"><i class="fa fa-bookmark"></i></a></li>
-                          <li><a href="#"><i class="fa fa-eye"></i></a></li>
-                          <li><a href="#"><i class="fa fa-share"></i></a></li>
-                        </ul>
-                      </div>
-                      <div class="listing-inner">
-                        <div class="listing-content">
-                          <h6 class="title-company">Mars Planet Telecommunications Inc.</h6>
-                          <span class="location"> <i class="fa fa-map-marker"></i> Manhattan, New york, USA </span> <span class="type-work full-time"> Full Time </span>
-                          <p>Proin gravida nibh vel velit auctor aliquet aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio pellentesque habitant morbi tristique senectus et netus et malesuada. <a href="single_job.html">read more</a></p>
-                          <h6 class="title-tags">Skills required:</h6>
-                          <ul class="tags list-inline">
-                            <li><a href="#">Javascript</a></li>
-                            <li><a href="#">Wordpress</a></li>
-                            <li><a href="#">Presta</a></li>
-                            <li><a href="#">Sass</a></li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="listing-tabs">
-                        <ul>
-                          <li><a href="#"><i class="fa fa-envelope"></i> email@mail.com</a></li>
-                          <li><a href="#"><i class="fa fa-phone"></i> 012 345 678</a></li>
-                          <li><a href="#"><i class="fa fa-globe"></i> www.webstite.com</a></li>
-                          <li class="share-button"> <a href="#"><i class="fa fa-share"></i> Share</a>
-                            <div class="contact-share">
-                              <ul>
-                                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-                              </ul>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+
+
                   </div>
                 </div>
               </div>
 
-              <!-- Contact -->
-              <div id="contact" class="tab-pane fade">
-                <div class="profile-main">
-                  <h3>Contact the Company</h3>
-                  <div class="profile-in">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quis tenetur velit! Provident eum molestias aperiam suscipit distinctio ipsum cupiditate quasi, dolor sunt, cum reprehenderit quibusdam, repellendus eaque, quas magni.</p>
-                    <form action="#">
-                      <input type="text" placeholder="Name & Surname">
-                      <input type="text" placeholder="E-mail address">
-                      <input type="text" placeholder="Phone Number">
-                      <textarea placeholder="Your Message"></textarea>
-                      <button class="btn btn-primary">Send message</button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Portfolio -->
-              <div id="portfolio" class="tab-pane fade">
-                <div class="profile-main">
-                  <h3>Portfolio</h3>
-                  <div class="profile-in">
-                    <div class="uou-portfolio"> 
-                      <!-- Portfolio Item -->
-                      <section class="portfolio">
-                        <div class="portfolio-filters-content"> 
-                          <!-- Portfolio Item -->
-                          <article class="development design"> <a href="img/portfolio-1.jpg" class="swipebox"> <img src="img/portfolio-1.jpg" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article>
-                          <!-- Portfolio Item -->
-                          <article class="design"> <a href="img/portfolio-2.jpg" class="swipebox"> <img src="img/portfolio-2.jpg" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article>
-                          <!-- Portfolio Item -->
-                          <article class="development branding"> <a href="img/portfolio-3.jpg" class="swipebox"> <img src="img/portfolio-3.jpg" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article>
-                          <!-- Portfolio Item -->
-                          <article class="development design"> <a href="img/portfolio-6.jpg" class="swipebox"> <img src="img/portfolio-6.jpg" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article>
-                          <!-- Portfolio Item -->
-                          <article class="branding development"> <a href="img/portfolio-4.jpg" class="swipebox"> <img src="img/portfolio-4.jpg" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article>
-                          <!-- Portfolio Item -->
-                          <article class="mobile branding"> <a href="img/portfolio-5.jpg" class="swipebox"> <img src="img/portfolio-5.jpg" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article>
-                          <!-- Portfolio Item -->
-                          <article class="branding"> <a href="img/portfolio-7.jpg" class="swipebox"> <img src="img/portfolio-7.jpg" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article>
-                          <!-- Portfolio Item -->
-                          <article class="branding"> <a href="img/portfolio-2.jpg" class="swipebox"> <img src="img/portfolio-2.jpg" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article>
-                          <!-- Portfolio Item -->
-                          <article class="design development"> <a href="img/portfolio-8.jpg" class="swipebox"> <img src="img/portfolio-8.jpg" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article>
-                        </div>
-                      </section>
-                    </div>
-                    <!-- end uou-portfolio --> 
-                  </div>
-                </div>
-              </div>
+              {{-- <!-- Portfolio --> --}}
+              {{-- <div id="portfolio" class="tab-pane fade"> --}}
+              {{--   <div class="profile-main"> --}}
+              {{--     <h3>Portfolio</h3> --}}
+              {{--     <div class="profile-in"> --}}
+              {{--       <div class="uou-portfolio">  --}}
+              {{--         <!-- Portfolio Item --> --}}
+              {{--         <section class="portfolio"> --}}
+              {{--           <div class="portfolio-filters-content">  --}}
+              {{--             <!-- Portfolio Item --> --}}
+              {{--             <article class="development design"> <a href="{{asset('img/portfolio-1.jpg')}}" class="swipebox"> <img src="{{asset('img/portfolio-1.jpg')}}" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article> --}}
+              {{--             <!-- Portfolio Item --> --}}
+              {{--             <article class="design"> <a href="{{asset('img/portfolio-2.jpg')}}" class="swipebox"> <img src="{{asset('img/portfolio-2.jpg')}}" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article> --}}
+              {{--             <!-- Portfolio Item --> --}}
+              {{--             <article class="development branding"> <a href="{{asset('img/portfolio-3.jpg')}}" class="swipebox"> <img src="{{asset('img/portfolio-3.jpg')}}" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article> --}}
+              {{--             <!-- Portfolio Item --> --}}
+              {{--             <article class="development design"> <a href="{{asset('img/portfolio-6.jpg')}}" class="swipebox"> <img src="{{asset('img/portfolio-6.jpg')}}" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article> --}}
+              {{--             <!-- Portfolio Item --> --}}
+              {{--             <article class="branding development"> <a href="{{asset('img/portfolio-4.jpg')}}" class="swipebox"> <img src="{{asset('img/portfolio-4.jpg')}}" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article> --}}
+              {{--             <!-- Portfolio Item --> --}}
+              {{--             <article class="mobile branding"> <a href="{{asset('img/portfolio-5.jpg')}}" class="swipebox"> <img src="{{asset('img/portfolio-5.jpg')}}" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article> --}}
+              {{--             <!-- Portfolio Item --> --}}
+              {{--             <article class="branding"> <a href="{{asset('img/portfolio-7.jpg')}}" class="swipebox"> <img src="{{asset('img/portfolio-7.jpg')}}" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article> --}}
+              {{--             <!-- Portfolio Item --> --}}
+              {{--             <article class="branding"> <a href="{{asset('img/portfolio-2.jpg')}}" class="swipebox"> <img src="{{asset('img/portfolio-2.jpg')}}" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article> --}}
+              {{--             <!-- Portfolio Item --> --}}
+              {{--             <article class="design development"> <a href="{{asset('img/portfolio-8.jpg')}}" class="swipebox"> <img src="{{asset('img/portfolio-8.jpg')}}" alt="" class="work img-responsive"> <span class="overlay"> <i class="fa fa-plus"></i> <b class="title"><strong>Photo Session</strong>Brands</b> </span> </a> </article> --}}
+              {{--           </div> --}}
+              {{--         </section> --}}
+              {{--       </div> --}}
+              {{--       <!-- end uou-portfolio -->  --}}
+              {{--     </div> --}}
+              {{--   </div> --}}
+              {{-- </div> --}}
 
               <!-- Blog Post -->
-              <div id="blog-tab" class="tab-pane fade">
+              <div id="tweet-tab" class="tab-pane fade">
                 <div class="profile-main">
-                  <h3>Blog Post</h3>
+                  <h3>Tweets</h3>
                   <div class="profile-in">
                     <div class="row">
                       <div class="col-md-12">

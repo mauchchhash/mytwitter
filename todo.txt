@@ -1,3 +1,4 @@
-add website to the user info
-
-2
+add website and city to the user info and update it in the profile page
+add working company name, post and company location at to the user info and update it in the profile page
+add messaging feature to the users
+add bookmarking feature to the users(users can bookmark another users)
