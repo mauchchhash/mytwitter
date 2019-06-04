@@ -1,4 +1,9 @@
-add website and city to the user info and update it in the profile page
-add working company name, post and company location at to the user info and update it in the profile page
-add messaging feature to the users
-add bookmarking feature to the users(users can bookmark another users)
+incomplete
+1. update method in ProfilesController
+2. in the index method in the TweetsController, all the tweets from every user is showing, fix it so that only the tweets from the people that the logged in user is following is displayed
+
+new features to add
+1. add website and city to the user info and update it in the profile page
+2. add working company name, post and company location at to the user info and update it in the profile page
+3. add messaging feature to the users
+4. add bookmarking feature to the users(users can bookmark another users)
