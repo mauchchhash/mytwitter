@@ -7,3 +7,4 @@ new features to add
 2. add working company name, post and company location at to the user info and update it in the profile page
 3. add messaging feature to the users
 4. add bookmarking feature to the users(users can bookmark another users)
+5. add about information to the users.

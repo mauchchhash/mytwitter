@@ -1,11 +1,16 @@
 @extends('layout')
 @section('content')
   <!-- SUB Banner -->
-  <div class="profile-bnr sub-bnr user-profile-bnr">
-    <div class="position-center-center">
-      <div class="container">
-        <h2>Our Blog</h2>
-      </div>
+  <!-- <div class="profile&#45;bnr sub&#45;bnr user&#45;profile&#45;bnr"> -->
+  <!--   <div class="position&#45;center&#45;center"> -->
+  <!--     <div class="container"> -->
+  <!--       <h4>Post your Tweets</h4> -->
+  <!--     </div> -->
+  <!--   </div> -->
+  <!-- </div> -->
+  <div class='container'>
+    <div>
+      <form action=""></form>
     </div>
   </div>
 
@@ -14,23 +19,23 @@
       <div class="row">
         <div class="col-md-9">
           @foreach($tweets as $tweet)
-              <article class="uou-block-7f"> <img src="{{asset('img/blog-image-1.jpg')}}" alt="" class="thumb">
-                <div class="meta"> <span class="time-ago">3 days ago</span> <span class="category">Posted in: <a href="#">Design</a></span> <a href="#" class="comments">12 Comments</a> </div>
-                <h1><a href="/profiles/{{$tweet->user->username}}">{{$tweet->user->name}}</a></h1>
-                <p>{{$tweet->body}}</p>
-                <a href="#" class="btn btn-small btn-primary">Read More</a> </article>
-          @endforeach
-          <!-- end .uou-block-7f -->
+            <article class="uou-block-7f"> <img src="{{asset('img/blog-image-1.jpg')}}" alt="" class="thumb">
+              <div class="meta"> <span class="time-ago">3 days ago</span> <span class="category">Posted in: <a href="#">Design</a></span> <a href="#" class="comments">12 Comments</a> </div>
+              <h1><a href="/profiles/{{$tweet->user->username}}">{{$tweet->user->name}}</a></h1>
+              <p>{{$tweet->body}}</p>
+              <a href="#" class="btn btn-small btn-primary">Read More</a> </article>
+            @endforeach
+            <!-- end .uou-block-7f -->
 
-          <!-- <div class="text&#45;center pt20"> -->
-          <!--   <ul class="uou&#45;paginatin list&#45;unstyled"> -->
-          <!--     <li class="active"><a href="#">1</a></li> -->
-          <!--     <li><a href="#">2</a></li> -->
-          <!--     <li><a href="#">3</a></li> -->
-          <!--     <li><a href="#">4</a></li> -->
-          <!--     <li><a href="#">5</a></li> -->
-          <!--   </ul> -->
-          <!-- </div> -->
+            <!-- <div class="text&#45;center pt20"> -->
+            <!--   <ul class="uou&#45;paginatin list&#45;unstyled"> -->
+            <!--     <li class="active"><a href="#">1</a></li> -->
+            <!--     <li><a href="#">2</a></li> -->
+            <!--     <li><a href="#">3</a></li> -->
+            <!--     <li><a href="#">4</a></li> -->
+            <!--     <li><a href="#">5</a></li> -->
+            <!--   </ul> -->
+            <!-- </div> -->
         </div>
         <div class="col-md-3">
           <div class="uou-sidebar">
@@ -72,21 +77,34 @@
             <!-- end social widget -->
 
             <h5 class="sidebar-title">Suggested People</h5>
-            <div class="latest-post-widget">
-              <div class="post-single"> <img src="{{asset('img/p-post-1.png')}}" alt="">
-                <h6 class="post-title"><a href="#">Pariatur Vellit Corrupti Goes Into 2 Lines</a></h6>
-                <p class="meta">January 12, 2015</p>
-                <p class="meta">Design</p>
+            <div class="similar">
+              <div class="media">
+                <div class="media-left">
+                  <div class="inn-simi"> <img class="media-object" src="{{asset('images/med-avatar.jpg')}}" alt=""></div>
+                </div>
+                <div class="media-body">
+                  <a href="#"><h6>Media heading</h6></a>
+                </div>
               </div>
-              <div class="post-single"> <img src="{{asset('img/p-post-2.png')}}" alt="">
-                <h6 class="post-title"><a href="#">Pariatur Vellit Corrupti Goes Into 2 Lines</a></h6>
-                <p class="meta">January 12, 2015</p>
-                <p class="meta">Design</p>
+
+              <!-- Similar -->
+              <div class="media">
+                <div class="media-left">
+                  <div class="inn-simi"> <img class="media-object" src="{{asset('images/med-avatar.jpg')}}" alt=""> </div>
+                </div>
+                <div class="media-body">
+                  <a href="#"><h6>Denise Walsh</h6></a>
+                </div>
               </div>
-              <div class="post-single"> <img src="{{asset('img/p-post-3.png')}}" alt="">
-                <h6 class="post-title"><a href="#">Pariatur Vellit Corrupti Goes Into 2 Lines</a></h6>
-                <p class="meta">January 12, 2015</p>
-                <p class="meta">Design</p>
+
+              <!-- Similar -->
+              <div class="media">
+                <div class="media-left">
+                  <div class="inn-simi"> <img class="media-object" src="{{asset('images/med-avatar.jpg')}}" alt=""> </div>
+                </div>
+                <div class="media-body">
+                  <a href="#"><h6>Denise Walsh</h6></a>
+                </div>
               </div>
             </div>
             <!-- end latest-post-widget -->
