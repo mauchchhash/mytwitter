@@ -23,9 +23,11 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
-      .bg-white 
-      {
+      .bg-white {
         background:#ffffff !important;
+      }
+      .uou-block-2b-paddingFix{
+        padding: 15px 0px 0px 0px;
       }
     </style>
   </head>
@@ -34,7 +36,7 @@
     <div id="main-wrapper"> 
 
       <div class="box-shadow-for-ui">
-        <div class="uou-block-2b">
+        <div class="uou-block-2b uou-block-2b-paddingFix">
           <div class="container"> <a href="#" class="logo"><img src="{{asset("images/logo.png")}}" alt=""></a> <a href="#" class="mobile-sidebar-button mobile-sidebar-toggle"><span></span></a>
             <nav class="nav">
               <ul class="sf-menu">
