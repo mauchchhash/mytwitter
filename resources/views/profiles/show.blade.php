@@ -106,7 +106,7 @@
                       <div class="similar">
                         <div class="media">
                           <div class="media-left">
-                            <div class="inn-simi"> <img class="media-object" src="images/med-avatar.jpg" alt=""> <a href="#">Profile </a> </div>
+                            <div class="inn-simi"> <img class="media-object" src="{{asset('images/med-avatar.jpg')}}" alt=""> <a href="#">Profile </a> </div>
                           </div>
                           <div class="media-body">
                             <h5>Media heading</h5>
@@ -123,7 +123,7 @@
                         <!-- Similar -->
                         <div class="media">
                           <div class="media-left">
-                            <div class="inn-simi"> <img class="media-object" src="images/med-avatar.jpg" alt=""> <a href="#">Profile </a> </div>
+                            <div class="inn-simi"> <img class="media-object" src="{{asset('images/med-avatar.jpg')}}" alt=""> <a href="#">Profile </a> </div>
                           </div>
                           <div class="media-body">
                             <h5>Denise Walsh</h5>
@@ -140,7 +140,7 @@
                         <!-- Similar -->
                         <div class="media">
                           <div class="media-left">
-                            <div class="inn-simi"> <img class="media-object" src="images/med-avatar.jpg" alt=""> <a href="#">Profile </a> </div>
+                            <div class="inn-simi"> <img class="media-object" src="{{asset('images/med-avatar.jpg')}}" alt=""> <a href="#">Profile </a> </div>
                           </div>
                           <div class="media-body">
                             <h5>Denise Walsh</h5>
@@ -243,7 +243,7 @@
                   <div class="profile-in">
                     <div class="row">
                       <div class="col-md-12">
-                        <article class="uou-block-7f"> <img src="img/blog-image-1.jpg" alt="" class="thumb">
+                        <article class="uou-block-7f"> <img src="{{asset('img/blog-image-1.jpg')}}" alt="" class="thumb">
                           <div class="meta"> <span class="time-ago">3 days ago</span> <span class="category">Posted in: <a href="#">Design</a></span> <a href="#" class="comments">12 Comments</a> </div>
                           <h1><a href="#">Perspiciatis Sint Pariatur Velit Corrupti</a></h1>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
@@ -252,7 +252,7 @@
                           <a href="#" class="btn btn-small btn-primary">Read More</a> </article>
                         <!-- end .uou-block-7f -->
 
-                        <article class="uou-block-7f"> <img src="img/blog-image-2.jpg" alt="" class="thumb">
+                        <article class="uou-block-7f"> <img src="{{asset('img/blog-image-2.jpg')}}" alt="" class="thumb">
                           <div class="meta"> <span class="time-ago">3 days ago</span> <span class="category">Posted in: <a href="#">Design</a></span> <a href="#" class="comments">12 Comments</a> </div>
                           <h1><a href="#">Perspiciatis Sint Pariatur Velit Corrupti</a></h1>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
@@ -261,7 +261,7 @@
                           <a href="#" class="btn btn-small btn-primary">Read More</a> </article>
                         <!-- end .uou-block-7f -->
 
-                        <article class="uou-block-7f"> <img src="img/blog-image-3.jpg" alt="" class="thumb">
+                        <article class="uou-block-7f"> <img src="{{asset('img/blog-image-3.jpg')}}" alt="" class="thumb">
                           <div class="meta"> <span class="time-ago">3 days ago</span> <span class="category">Posted in: <a href="#">Design</a></span> <a href="#" class="comments">12 Comments</a> </div>
                           <h1><a href="#">Perspiciatis Sint Pariatur Velit Corrupti</a></h1>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
@@ -270,7 +270,7 @@
                           <a href="#" class="btn btn-small btn-primary">Read More</a> </article>
                         <!-- end .uou-block-7f -->
 
-                        <article class="uou-block-7f"> <img src="img/blog-image-4.jpg" alt="" class="thumb">
+                        <article class="uou-block-7f"> <img src="{{asset('img/blog-image-4.jpg')}}" alt="" class="thumb">
                           <div class="meta"> <span class="time-ago">3 days ago</span> <span class="category">Posted in: <a href="#">Design</a></span> <a href="#" class="comments">12 Comments</a> </div>
                           <h1><a href="#">Perspiciatis Sint Pariatur Velit Corrupti</a></h1>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
@@ -279,7 +279,7 @@
                           <a href="#" class="btn btn-small btn-primary">Read More</a> </article>
                         <!-- end .uou-block-7f -->
 
-                        <article class="uou-block-7f"> <img src="img/blog-image-5.jpg" alt="" class="thumb">
+                        <article class="uou-block-7f"> <img src="{{asset('img/blog-image-5.jpg')}}" alt="" class="thumb">
                           <div class="meta"> <span class="time-ago">3 days ago</span> <span class="category">Posted in: <a href="#">Design</a></span> <a href="#" class="comments">12 Comments</a> </div>
                           <h1><a href="#">Perspiciatis Sint Pariatur Velit Corrupti</a></h1>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
@@ -326,7 +326,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -351,7 +351,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -376,7 +376,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -401,7 +401,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -426,7 +426,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -451,7 +451,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -476,7 +476,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -513,7 +513,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -538,7 +538,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -563,7 +563,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -588,7 +588,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -613,7 +613,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -638,7 +638,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -663,7 +663,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -700,7 +700,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -725,7 +725,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -750,7 +750,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -775,7 +775,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -800,7 +800,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -825,7 +825,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>
@@ -850,7 +850,7 @@
                               </div>
                               <!-- Name -->
                               <div class="fol-name">
-                                <div class="avatar"> <img src="images/sm-avatar.jpg" alt=""> </div>
+                                <div class="avatar"> <img src="{{asset('images/sm-avatar.jpg')}}" alt=""> </div>
                                 <h6>Collin Weiland</h6>
                                 <span>Web Developer</span> </div>
                             </div>

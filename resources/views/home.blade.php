@@ -14,7 +14,7 @@
       <div class="row">
         <div class="col-md-9">
           @foreach($tweets as $tweet)
-              <article class="uou-block-7f"> <img src="img/blog-image-1.jpg" alt="" class="thumb">
+              <article class="uou-block-7f"> <img src="{{asset('img/blog-image-1.jpg')}}" alt="" class="thumb">
                 <div class="meta"> <span class="time-ago">3 days ago</span> <span class="category">Posted in: <a href="#">Design</a></span> <a href="#" class="comments">12 Comments</a> </div>
                 <h1><a href="/profiles/{{$tweet->user->username}}">{{$tweet->user->name}}</a></h1>
                 <p>{{$tweet->body}}</p>
@@ -71,22 +71,22 @@
             <!-- </div> -->
             <!-- end social widget -->
 
-            <h5 class="sidebar-title">Popular Tweets</h5>
+            <h5 class="sidebar-title">Suggested People</h5>
             <div class="latest-post-widget">
-              <div class="post-single"> <img src="img/p-post-1.png" alt="">
+              <div class="post-single"> <img src="{{asset('img/p-post-1.png')}}" alt="">
+                <h6 class="post-title"><a href="#">Pariatur Vellit Corrupti Goes Into 2 Lines</a></h6>
                 <p class="meta">January 12, 2015</p>
                 <p class="meta">Design</p>
-                <h6 class="post-title"><a href="#">Pariatur Vellit Corrupti Goes Into 2 Lines</a></h6>
               </div>
-              <div class="post-single"> <img src="img/p-post-2.png" alt="">
+              <div class="post-single"> <img src="{{asset('img/p-post-2.png')}}" alt="">
+                <h6 class="post-title"><a href="#">Pariatur Vellit Corrupti Goes Into 2 Lines</a></h6>
                 <p class="meta">January 12, 2015</p>
                 <p class="meta">Design</p>
-                <h6 class="post-title"><a href="#">Pariatur Vellit Corrupti Goes Into 2 Lines</a></h6>
               </div>
-              <div class="post-single"> <img src="img/p-post-3.png" alt="">
+              <div class="post-single"> <img src="{{asset('img/p-post-3.png')}}" alt="">
+                <h6 class="post-title"><a href="#">Pariatur Vellit Corrupti Goes Into 2 Lines</a></h6>
                 <p class="meta">January 12, 2015</p>
                 <p class="meta">Design</p>
-                <h6 class="post-title"><a href="#">Pariatur Vellit Corrupti Goes Into 2 Lines</a></h6>
               </div>
             </div>
             <!-- end latest-post-widget -->
