@@ -8,9 +8,23 @@
   <!--     </div> -->
   <!--   </div> -->
   <!-- </div> -->
-  <div class='container'>
-    <div>
-      <form action=""></form>
+
+  <div class='blog-content'>
+    <div class= 'container'>
+      <h6>Post Your Tweet</h6>
+      <form method='POST' class="form-horizontal" action="/tweets">
+        @csrf
+        <div class="form-group">
+          <div class="col-sm-9">
+            <textarea id="postTweet" class="form-control" placeholder="How are feeling?" name="body" rows="2"></textarea>
+          </div>
+        </div>
+        <div class="form-group">        
+          <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Post</button>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
 

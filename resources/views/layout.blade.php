@@ -26,6 +26,9 @@
       .bg-white {
         background:#ffffff !important;
       }
+      .cl-dark{
+        color: black !important;
+      }
       .uou-block-2b-paddingFix{
         padding: 15px 0px 0px 0px;
       }
@@ -37,7 +40,7 @@
 
       <div class="box-shadow-for-ui">
         <div class="uou-block-2b uou-block-2b-paddingFix">
-          <div class="container"> <a href="#" class="logo"><img src="{{asset("images/logo.png")}}" alt=""></a> <a href="#" class="mobile-sidebar-button mobile-sidebar-toggle"><span></span></a>
+          <div class="container"> <a href="/home" class="logo"><img src="{{asset("images/logo.png")}}" alt=""></a> <a href="#" class="mobile-sidebar-button mobile-sidebar-toggle"><span></span></a>
             <nav class="nav">
               <ul class="sf-menu">
                 <li class="active"><a href="http://portfolio.uchchhash.me">Developer's Portfolio</a></li>
