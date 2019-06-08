@@ -1,6 +1,6 @@
 incomplete
 1. update method in ProfilesController
-2. in the index method in the TweetsController, all the tweets from every user is showing, fix it so that only the tweets from the people that the logged in user is following is displayed
+2. in the index method in the TweetsController, all the tweets from every user is showing, fix it so that only the tweets from the people that the logged in user is following are displayed
 
 new features to add
 add post tweet feature in the home page

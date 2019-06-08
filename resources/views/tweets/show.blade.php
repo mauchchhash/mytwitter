@@ -66,22 +66,7 @@
 
                 <h1><a href="#">Perspiciatis Sint Pariatur Velit Corrupti</a></h1>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus.</p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
-                Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
-                Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
-                Phasellus pharetra nulla ac diam.
-                Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
-                Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
-                Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
-                Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
-                </p>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
-                Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.
-                Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam.</p>
+                <p>{{$tweet->body}}</p>
 
 
                 <div class="uou-share-story clearfix">
@@ -108,11 +93,9 @@
                   </div>
                 </div>
 
-
-                <a class="btn btn-primary " href="#">Back To Blog List</a>
+                <a class="btn btn-primary" href="/home/">Back to Home</a>
 
               </article> <!-- end .uou-block-7f -->
-
 
               <div class="uou-post-comment">
                 <aside class="uou-block-14a">
@@ -134,7 +117,6 @@
                         </div>
                       </article>
                     </li>
-
 
                     <li>
                       <article class="comment">
@@ -186,10 +168,6 @@
               </div>
 
 
-
-
-
-
             </div> <!-- end grid layout -->
 
             <div class="col-md-3">
@@ -237,33 +215,37 @@
                 <!--   </div> <!&#45;&#45; end .uou&#45;block&#45;4b &#45;&#45;> -->
                 <!-- </div> <!&#45;&#45; end social widget &#45;&#45;> -->
 
-                <h5 class="sidebar-title">Popular Posts</h5>
-
-                <div class="latest-post-widget">
-                  <div class="post-single">
-                    <img src="img/p-post-1.png" alt="">
-                    <p class="meta">January 12, 2015</p>
-                    <p class="meta">Design</p>
-                    <h6 class="post-title"><a href="#">Pariatur Vellit Corrupti Goes Into 2 Lines</a></h6>
-
+                <h5 class="sidebar-title">Suggested People</h5>
+                <div class="similar">
+                  <div class="media">
+                    <div class="media-left">
+                      <div class="inn-simi"> <img class="media-object" src="{{asset('images/med-avatar.jpg')}}" alt=""></div>
+                    </div>
+                    <div class="media-body">
+                      <a href="#"><h6>Media heading</h6></a>
+                    </div>
                   </div>
 
-                  <div class="post-single">
-                    <img src="img/p-post-2.png" alt="">
-                    <p class="meta">January 12, 2015</p>
-                    <p class="meta">Design</p>
-                    <h6 class="post-title"><a href="#">Pariatur Vellit Corrupti Goes Into 2 Lines</a></h6>
-
+                  <!-- Similar -->
+                  <div class="media">
+                    <div class="media-left">
+                      <div class="inn-simi"> <img class="media-object" src="{{asset('images/med-avatar.jpg')}}" alt=""> </div>
+                    </div>
+                    <div class="media-body">
+                      <a href="#"><h6>Denise Walsh</h6></a>
+                    </div>
                   </div>
 
-                  <div class="post-single">
-                    <img src="img/p-post-3.png" alt="">
-                    <p class="meta">January 12, 2015</p>
-                    <p class="meta">Design</p>
-                    <h6 class="post-title"><a href="#">Pariatur Vellit Corrupti Goes Into 2 Lines</a></h6>
-
+                  <!-- Similar -->
+                  <div class="media">
+                    <div class="media-left">
+                      <div class="inn-simi"> <img class="media-object" src="{{asset('images/med-avatar.jpg')}}" alt=""> </div>
+                    </div>
+                    <div class="media-body">
+                      <a href="#"><h6>Denise Walsh</h6></a>
+                    </div>
                   </div>
-                </div> <!-- end latest-post-widget -->
+                </div>
 
 
                 <!-- <h5 class="sidebar&#45;title">Tag Cloud</h5> -->

@@ -37,7 +37,7 @@
               <div class="meta"> <span class="time-ago">3 days ago</span> <span class="category">Posted in: <a href="#">Design</a></span> <a href="#" class="comments">12 Comments</a> </div>
               <h1><a href="/profiles/{{$tweet->user->username}}">{{$tweet->user->name}}</a></h1>
               <p>{{$tweet->body}}</p>
-              <a href="#" class="btn btn-small btn-primary">Read More</a> </article>
+              <a href="{{$tweet->path()}}" class="btn btn-small btn-primary">Read More</a> </article>
             @endforeach
             <!-- end .uou-block-7f -->
 

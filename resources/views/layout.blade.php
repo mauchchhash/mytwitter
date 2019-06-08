@@ -53,7 +53,7 @@
                     </form>
                   </li>
                 @endauth
-                <li class="active"><a href="/"><i class="fa  fa-home"></i></a></li>
+                <li class="active"><a href="/"><i class="fa fa-home"></i></a></li>
               </ul>
             </nav>
           </div>
