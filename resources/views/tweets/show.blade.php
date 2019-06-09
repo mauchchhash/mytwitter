@@ -56,7 +56,7 @@
           <div class="row">
             <div class="col-md-9">
               <article class="uou-block-7f blog-post-content">
-                <img src="img/b-post-image.jpg" alt="">
+                {{-- <img src="{{asset('img/b-post-image.jpg')}}" alt=""> --}}
 
                 <div class="meta">
                   <span class="time-ago">3 days ago</span>
@@ -64,7 +64,7 @@
                   <a href="#" class="comments">12 Comments</a>
                 </div>
 
-                <h1><a href="#">Perspiciatis Sint Pariatur Velit Corrupti</a></h1>
+                <h1><a href="{{$tweet->user->path()}}">{{$tweet->user->name}}</a></h1>
 
                 <p>{{$tweet->body}}</p>
 
@@ -103,7 +103,7 @@
                   <ul>
                     <li>
                       <article class="comment">
-                        <img src="img/p-post-1.png" alt="">
+                        <img src="{{asset('img/p-post-1.png')}}" alt="">
 
                         <div>
                           <header>
@@ -120,7 +120,7 @@
 
                     <li>
                       <article class="comment">
-                        <img src="img/p-post-1.png" alt="">
+                        <img src="{{asset('img/p-post-1.png')}}" alt="">
 
                         <div>
                           <header>
@@ -306,7 +306,7 @@
     <!-- <div class="uou&#45;block&#45;4e"> -->
     <!--   <div class="container"> -->
     <!--     <div class="row"> -->
-    <!--       <div class="col&#45;md&#45;3 col&#45;sm&#45;6"> <a href="#" class="logo"><img src="images/logo.png" alt=""></a> -->
+    <!--       <div class="col&#45;md&#45;3 col&#45;sm&#45;6"> <a href="#" class="logo"><img src="{{asset('images/logo.png')}}" alt=""></a> -->
     <!--         <ul class="contact&#45;info has&#45;bg&#45;image contain" data&#45;bg&#45;image="images/footer&#45;map&#45;bg.png"> -->
     <!--           <li> <i class="fa fa&#45;map&#45;marker"></i> -->
     <!--             <address> -->
@@ -327,12 +327,12 @@
     <!--       <div class="col&#45;md&#45;3 col&#45;sm&#45;6"> -->
     <!--         <h5>Photostream</h5> -->
     <!--         <ul class="photos&#45;list"> -->
-    <!--           <li><img src="images/photostream4.jpg" alt=""></li> -->
-    <!--           <li><img src="images/photostream6.jpg" alt=""></li> -->
-    <!--           <li><img src="images/photostream3.jpg" alt=""></li> -->
-    <!--           <li><img src="images/photostream2.jpg" alt=""></li> -->
-    <!--           <li><img src="images/photostream1.jpg" alt=""></li> -->
-    <!--           <li><img src="images/photostream.jpg" alt=""></li> -->
+    <!--           <li><img src="{{asset('images/photostream4.jpg')}}" alt=""></li> -->
+    <!--           <li><img src="{{asset('images/photostream6.jpg')}}" alt=""></li> -->
+    <!--           <li><img src="{{asset('images/photostream3.jpg')}}" alt=""></li> -->
+    <!--           <li><img src="{{asset('images/photostream2.jpg')}}" alt=""></li> -->
+    <!--           <li><img src="{{asset('images/photostream1.jpg')}}" alt=""></li> -->
+    <!--           <li><img src="{{asset('images/photostream.jpg')}}" alt=""></li> -->
     <!--         </ul> -->
     <!--       </div> -->
     <!--       <div class="col&#45;md&#45;3 col&#45;sm&#45;6"> -->
@@ -389,19 +389,19 @@
 
 
     <!-- Scripts --> 
-    <script src="https://maps.googleapis.com/maps/api/js"></script> 
-    <script src="js/jquery-2.1.3.min.js"></script> 
-    <script src="js/bootstrap.js"></script> 
-    <script src="js/plugins/superfish.min.js"></script> 
-    <script src="js/jquery.ui.min.js"></script> 
-    <script src="js/plugins/rangeslider.min.js"></script> 
-    <script src="js/plugins/jquery.flexslider-min.js"></script> 
-    <script src="js/uou-accordions.js"></script> 
-    <script src="js/uou-tabs.js"></script> 
-    <script src="js/plugins/select2.min.js"></script> 
-    <script src="js/owl.carousel.min.js"></script> 
-    <script src="js/gmap3.min.js"></script> 
-    <script src="js/scripts.js"></script> 
+    <script src="{{asset('https://maps.googleapis.com/maps/api/js')}}"></script> 
+    <script src="{{asset('js/jquery-2.1.3.min.js')}}"></script> 
+    <script src="{{asset('js/bootstrap.js')}}"></script> 
+    <script src="{{asset('js/plugins/superfish.min.js')}}"></script> 
+    <script src="{{asset('js/jquery.ui.min.js')}}"></script> 
+    <script src="{{asset('js/plugins/rangeslider.min.js')}}"></script> 
+    <script src="{{asset('js/plugins/jquery.flexslider-min.js')}}"></script> 
+    <script src="{{asset('js/uou-accordions.js')}}"></script> 
+    <script src="{{asset('js/uou-tabs.js')}}"></script> 
+    <script src="{{asset('js/plugins/select2.min.js')}}"></script> 
+    <script src="{{asset('js/owl.carousel.min.js')}}"></script> 
+    <script src="{{asset('js/gmap3.min.js')}}"></script> 
+    <script src="{{asset('js/scripts.js')}}"></script> 
 
 
 

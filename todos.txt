@@ -1,8 +1,10 @@
 incomplete
-1. update method in ProfilesController
-2. in the index method in the TweetsController, all the tweets from every user is showing, fix it so that only the tweets from the people that the logged in user is following are displayed
+update method in ProfilesController
 
 new features to add
+show the comments on the individual tweets pages
+add created_time to tweets, follows and comments table
+show time to the tweets and comments
 add post tweet feature in the home page
 add edit info feature in the profile page
 add website and city to the user info and update it in the profile page

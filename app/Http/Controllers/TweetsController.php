@@ -4,11 +4,15 @@ namespace App\Http\Controllers;
 
 use App\Tweet;
 use Illuminate\Http\Request;
+use Illuminate\Support\Collection;
 
 class TweetsController extends Controller
 {
   public function index(){
-    $tweets = Tweet::all();
+    $tweets = auth()->user()->tweets->reverse();
+    foreach( auth()->user()->following as $user ){
+      $tweets = $tweets->concat($user->tweets);
+    }
 
     return view('home', compact('tweets'));
   }
