@@ -10,7 +10,7 @@
             <div class="meta">
               <span class="time-ago">3 days ago</span>
               <span class="category">Posted in: <a href="#">Design</a></span>
-              <a href="#" class="comments">12 Comments</a>
+              <a href="#" class="comments">{{$tweet->commenters->count()}} Comment(s)</a>
             </div>
 
             <h1><a href="{{$tweet->user->path()}}">{{$tweet->user->name}}</a></h1>
@@ -48,43 +48,26 @@
 
           <div class="uou-post-comment">
             <aside class="uou-block-14a">
-              <h5 class="sidebar-title">Comments(<span>2</span>)</h5>
+              <h5 class="sidebar-title">Comments(<span>{{$tweet->commenters->count()}}</span>)</h5>
               <ul>
                 <li>
-                  <article class="comment">
-                    <img src="{{asset('img/p-post-1.png')}}" alt="">
+                  @foreach($tweet->commenters as $commenter)
+                    <article class="comment">
+                      <img src="{{asset('img/p-post-1.png')}}" alt="">
 
-                    <div>
-                      <header>
-                        <a href="#" class="user">Jessica Walsh -</a>
+                      <div>
+                        <header>
+                          <a href="#" class="user">{{$commenter->name}}</a>
 
-                        <span class="time-ago">May 13, 2015(11.25)</span>
-                        <a href="#" class="reply">Reply</a>
-                      </header>
+                          <span class="time-ago">  {{ Carbon\Carbon::parse($commenter->comment->created_at)->format('d-M-y') }}</span>
+                        </header>
 
-                      <p>Veniam minus obcaecati, quos facere et quibusdam debitis iure voluptate libero voluptas dolorem praesentium rerum adipisci ad fuga, odio molestiae. Soluta quos vel pariatur nemo fugit repellat. nemo fugit repellat</p>
-                    </div>
-                  </article>
+                        <p>{{$commenter->comment->body}}</p>
+                      </div>
+                    </article>
+                  @endforeach
                 </li>
 
-                <li>
-                  <article class="comment">
-                    <img src="{{asset('img/p-post-1.png')}}" alt="">
-
-                    <div>
-                      <header>
-                        <a href="#" class="user">Jessica Walsh -</a>
-
-                        <span class="time-ago">May 13, 2015(11.25)</span>
-                        <a href="#" class="reply">Reply</a>
-                      </header>
-
-                      <p>Veniam minus obcaecati, quos facere et quibusdam debitis iure voluptate libero voluptas dolorem praesentium rerum adipisci ad fuga, odio molestiae. Soluta quos vel pariatur nemo fugit repellat. nemo fugit repellat</p>
-                    </div>
-                  </article>
-                </li>
-
-              </ul>
             </aside> <!-- end .uou-block-14a -->
 
             <h4>Join Conversation</h4>
