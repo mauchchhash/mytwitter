@@ -10,7 +10,8 @@ class TweetsController extends Controller
 {
   public function index(){
     $tweets = auth()->user()->tweets->reverse();
-    foreach( auth()->user()->following as $user ){
+    $followings = auth()->user()->following;
+    foreach( $followings as $user ){
       $tweets = $tweets->concat($user->tweets);
     }
 

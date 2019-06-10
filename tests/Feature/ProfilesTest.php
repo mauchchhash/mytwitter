@@ -19,7 +19,6 @@ class ProfilesTest extends TestCase
 
   /** @test */
   public function authenticated_user_can_view_his_own_profile(){
-    $this->withoutExceptionHandling();
     $this->be(factory(User::class)->create());
     $this->get(auth()->user()->path())
       ->assertStatus(200)
