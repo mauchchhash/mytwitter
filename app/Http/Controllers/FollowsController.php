@@ -7,13 +7,13 @@ use Illuminate\Http\Request;
 
 class FollowsController extends Controller
 {
-    public function store(User $user){
-        auth()->user()->following()->attach($user);
-    }
+  public function store(User $user){
+    auth()->user()->following()->attach($user);
+  }
 
-    public function destroy(User $user){
-        auth()->user()->following()->detach($user);
-    }
+  public function destroy(User $user){
+    auth()->user()->following()->detach($user);
+  }
 
 }
 
