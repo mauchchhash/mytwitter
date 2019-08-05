@@ -11,8 +11,14 @@
 
         <!-- Top Right Button -->
         <div class="right-top-bnr">
-          <div class="connect"> <a href="#." data-toggle="modal" data-target="#myModal"><i class="fa fa-user-plus"></i> Connect</a> <a href="#."><i class="fa fa-share-alt"></i> Share</a>
-            <div class="bt-ns"> <a href="#."><i class="fa fa-bookmark-o"></i></a> <a href="#."><i class="fa fa-envelope-o"></i></a>  </div>
+          <div class="connect"> 
+            <a href="#." data-toggle="modal" data-target="#myModal"><i class="fa fa-user-plus"></i> Connect</a> 
+            <a href="#."><i class="fa fa-share-alt"></i> Share</a>
+            <a href="#"><i class="fa fa-edit"></i>Edit</a>
+            <div class="bt-ns">
+              <a href="#."><i class="fa fa-bookmark-o"></i></a>
+              <a href="#."><i class="fa fa-envelope-o"></i></a>
+            </div>
           </div>
         </div>
       </div>
